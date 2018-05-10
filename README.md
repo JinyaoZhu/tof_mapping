@@ -7,5 +7,4 @@ ros package: octomap_mapping https://github.com/JinyaoZhu/octomap_mapping
 /pose_in  : Odometry
 
 ## Video: ##
-https://www.youtube.com/watch?v=5JnLOplZt_o&feature=youtu.be  
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5JnLOplZt_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
