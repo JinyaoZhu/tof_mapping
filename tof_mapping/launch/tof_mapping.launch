@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<launch>
+
+  <include file="$(find octomap_server)/launch/octomap_mapping.launch" />
+  <node name="tof_mapping" pkg="tof_mapping" type="tof_mapping" output="log">
+  
+  <remap from="/cloud_in" to="/bta_tof_driver_1/tof_camera/point_cloud_xyz" />
+  <!--<remap from="/pose_in" to="/vins_estimator/camera_pose" /> -->
+  <remap from="/pose_in" to="/vive/LHR_08DDEDC9_odom" />
+  
+  </node>
+
+</launch>
+
